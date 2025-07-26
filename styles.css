@@ -1,0 +1,91 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+}
+/*All Left section stuff below*/
+#left-section {
+	background-image: url(Images/halie-west-25xggax4bSA-unsplash.jpg);
+	margin-right: 8px;
+	margin-bottom: 0px;
+	padding: 25px;
+}
+img {
+	width: 420px;
+	height: 550px;
+}
+
+/*All Right section Stuff below*/
+#right-section {
+	margin: 0%;
+	align-items: normal;
+	justify-content: center;
+	padding-top: 0%;
+}
+
+/*Right Side Headings and paragraph*/
+#main-form {
+	background-color: whitesmoke;
+	padding: 40px;
+}
+.heading-text,
+.second-paragraph {
+	margin-top: 5px;
+	text-align: left;
+	text-wrap: wrap;
+	padding: 20px;
+	padding-left: 0px;
+}
+.heading-text {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 20px;
+	margin: 0%;
+
+	font-weight: bolder;
+}
+.second-paragraph {
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(8, 9, 9);
+}
+
+/*Button at the right side*/
+button:hover {
+	color: rgba(233, 17, 10, 0.848);
+}
+button {
+	text-wrap: wrap;
+	border-radius: 5px;
+	width: 150px;
+	height: 35px;
+	color: rgb(239, 246, 248);
+	background-color: rgb(52, 41, 134);
+}
+
+/*Form input and labels*/
+#form-container {
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+	margin: 15px;
+	padding-left: 0%;
+	width: 1px;
+	height: 20px;
+	gap: 40px;
+	align-items: center;
+	justify-content: left;
+}
+/*Login section*/
+hr {
+	background-color: gainsboro;
+}
+.login {
+	background-color: whitesmoke;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
